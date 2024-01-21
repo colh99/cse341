@@ -1,9 +1,8 @@
-const routes = require('express').Router();
-const lesson1Controller = require('../controllers/lesson1');
+const express = require('express');
+const router = require('express').Router();
 
 // Routes
-routes.get('/', lesson1Controller.colbyRoute);
-routes.get('/luke', lesson1Controller.lukeRoute);
+router.use('/contacts', require('./contacts'))
 
 
-module.exports = routes;
+module.exports = router;
