@@ -1,23 +1,23 @@
 [
-    {
-        "firstName": "Colby",
-        "lastName": "Hale",
-        "email": "colby@mail.com",
-        "favoriteColor": "Red",
-        "birthday": "10/22/1999"
-    },
-    {
-        "firstName": "Luke",
-        "lastName": "Skywalker",
-        "email": "luke@skywalker.net",
-        "favoriteColor": "Blue",
-        "birthday": "05/04/1977"
-    },
-    {
-        "firstName": "Jar Jar",
-        "lastName": "Binks",
-        "email": "jar@jar.com",
-        "favoriteColor": "Brown",
-        "birthday": "05/19/1999"
-    }
+  {
+    "firstName": "Colby",
+    "lastName": "Hale",
+    "email": "colby@mail.com",
+    "favoriteColor": "Red",
+    "birthday": "10/22/1999"
+  },
+  {
+    "firstName": "Luke",
+    "lastName": "Skywalker",
+    "email": "luke@skywalker.net",
+    "favoriteColor": "Blue",
+    "birthday": "05/04/1977"
+  },
+  {
+    "firstName": "Jar Jar",
+    "lastName": "Binks",
+    "email": "jar@jar.com",
+    "favoriteColor": "Brown",
+    "birthday": "05/19/1999"
+  }
 ]
