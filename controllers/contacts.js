@@ -47,7 +47,11 @@ const updateContact = async (req, res) => {
     favoriteColor: req.body.favoriteColor,
     birthday: req.body.birthday
   };
-  const result = await mongodb.getDb().db('cse341').collection('contacts').replaceOne({ _id: userId }, contact);
+  const result = await mongodb
+    .getDb()
+    .db('cse341')
+    .collection('contacts')
+    .replaceOne({ _id: userId }, contact);
   if (result.acknowledged) {
     res.status(204).json(result);
   } else {
@@ -58,7 +62,11 @@ const updateContact = async (req, res) => {
 // Delete a contact
 const deleteContact = async (req, res) => {
   const userId = new ObjectId(req.params.id);
-  const result = await mongodb.getDb().db('cse341').collection('contacts').deleteOne({ _id: userId }, true);
+  const result = await mongodb
+    .getDb()
+    .db('cse341')
+    .collection('contacts')
+    .deleteOne({ _id: userId }, true);
   if (result.deletedCount > 0) {
     res.status(200).json(result);
   } else {
